@@ -1,16 +1,63 @@
-# React + Vite
+# Online Library Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an Online Library System developed using React with Vite.
+The main purpose of this application is to allow users to explore books, search by category or author, view complete book details, and add new books to the library.
 
-Currently, two official plugins are available:
+The project is created as part of a React assignment and uses Redux Toolkit for managing the application state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# What this project does
 
-## React Compiler
+Displays a home page with book categories
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Allows users to browse books by category
 
-## Expanding the ESLint configuration
+Provides a search option to find books by title or author
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Shows detailed information of a selected book
+
+Includes a form to add a new book to the library
+
+Handles invalid URLs using a custom 404 page
+
+Uses Redux to manage the book list
+
+# Technologies Used
+
+React (created using Vite)
+
+React Router DOM
+
+Redux Toolkit
+
+Bootstrap
+
+JavaScript
+# How to run the project
+
+Clone the repository
+
+git clone https://github.com/amrruta369-cyber/online-library-react.git
+
+
+Go inside the project folder
+
+cd online-library-react
+
+
+Install required packages
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Open the browser and visit
+
+http://localhost:5173
+
+# Developed By
+
+Amruta Patil
